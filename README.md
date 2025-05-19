@@ -12,12 +12,12 @@ This study tackles the challenge of detecting multiple tomato leaf diseases by s
   ![image](https://github.com/user-attachments/assets/900dd384-93ae-4771-9488-5aa28ccf9660)
 
 # Algorithm
-Step 1: - converting the image to grayscale 
-Step 2: - learning background distribution with a GMM model, 
-Step 3: - creating a binary foreground mask, 
-Step 4: - refining the mask with morphological closing, 
-Step 5: - using GrabCut for further refinement based on the mask, and 
-Step 6: - removing the background using the final mask.
+1. converting the image to grayscale 
+2. learning background distribution with a GMM model, 
+3. creating a binary foreground mask,
+4. refining the mask with morphological closing,
+5. using GrabCut for further refinement based on the mask, and
+6. removing the background using the final mask.
 
 # Model Performance
 1. Classification models
